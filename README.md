@@ -10,7 +10,8 @@ This is my first repository
 * Push your changes
 
 ## Clone
-In order to clone you type 
+In order to clone you type
+ 
         git clone https://github.com/Warez1864/learning-php.git
 
 ## Stage
