@@ -71,5 +71,6 @@ Boolean: Booleans are like a switch, it has only two possible values either 1 (t
 $ImHappy = True;
 var_dump($ImHappy);
 
+// Output: True
 ?>
 ```
