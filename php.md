@@ -17,11 +17,10 @@ Simple string in PHP. Example:
     var_dump('I am 15 years old');
 
 
-Output:
-String(17) "I am 15 years old"
+// Output:
+// String(17) "I am 15 years old"
 ?>
 ```
-
 
 
 Integer: An integer data type is a non-decimal number, like 5
