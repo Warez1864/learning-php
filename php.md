@@ -37,3 +37,9 @@ $age = 5;
 Float: A float is a number with a decimal point, like 5.5
    * Float is also called double
    * A number with a decimal point is a real number
+
+```php
+Example...
+
+
+
