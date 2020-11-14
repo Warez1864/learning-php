@@ -40,5 +40,4 @@ Float: A float is a number with a decimal point, like 5.5
 ```php
 Example...
 
-
-
+```
