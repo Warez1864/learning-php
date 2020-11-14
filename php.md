@@ -95,6 +95,7 @@ Object: An Object is an individual instance of the data structure defined by a c
 ```
 <?php
 // Example:
+
 class Country {
   public $land;
   public $country;
