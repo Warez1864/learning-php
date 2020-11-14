@@ -18,9 +18,37 @@ Simple string in PHP. Example:
 
 
 // Output:
-// String(17) "I am 15 years old"
+// String "I am 15 years old"
 ?>
 ```
+* The strlen() function is used to calculate the number of characters inside a string. It also includes the blank spaces inside the string.
+```
+// Example:
+
+<?php
+   $MyAge = 'I am 15 years old';
+
+   // Outputs: 28
+echo strlen($MyAge);
+?>
+```
+* The str_word_count() function counts the number of words in a string.
+```
+// Example:
+
+<?php
+$MyName = 'My name is Warez.';
+
+// Outputs: 4
+echo str_word_count($MyName);
+?>
+```
+
+
+
+
+
+
 
 
 Integer: An integer data type is a non-decimal number, like 5
@@ -30,7 +58,7 @@ Integer: An integer data type is a non-decimal number, like 5
 
 ```php
 $age = 5;
-```
+
 
 
 Float: A float is a number with a decimal point, like 5.5
@@ -40,4 +68,4 @@ Float: A float is a number with a decimal point, like 5.5
 ```php
 Example...
 
-```
+
