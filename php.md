@@ -2,7 +2,7 @@
 
 This is some of my PHP Notes, which will be usefull.
 
-PHP's Data Types:
+<h2> PHP's Data Types: </h2>
 
 String: A string is a sequence of characters, like "My name is Warez"
    * A string can be any text inside quotes
@@ -28,7 +28,7 @@ Simple string in PHP. Example:
 <?php
    $MyAge = 'I am 15 years old';
 
-   // Outputs: 28
+// Outputs: 28
 echo strlen($MyAge);
 ?>
 ```
@@ -39,25 +39,19 @@ echo strlen($MyAge);
 <?php
 $MyName = 'My name is Warez.';
 
-// Outputs: 4
+// Output: 4
 echo str_word_count($MyName);
 ?>
 ```
-
-
-
-
-
-
-
-
 Integer: An integer data type is a non-decimal number, like 5
    * An integer must have at least one digit
    * An integer can not have a decimal point
    * An integer can be either positive or negative
+   * An integer data type is a non-decimal number between -2147483648 and 2147483647. A value greater (or lower) than this, will be stored as float, because it exceeds the limit   of an integer.
 
-```php
-$age = 5;
+Example:
+// An integer can be: $5
+
 
 
 
@@ -65,7 +59,8 @@ Float: A float is a number with a decimal point, like 5.5
    * Float is also called double
    * A number with a decimal point is a real number
 
-```php
-Example...
+Example:
+// A float can be: $5.123
+
 
 
