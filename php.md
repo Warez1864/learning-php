@@ -129,9 +129,3 @@ echo $myCountry -> message();
 // Output: My country is migthy Afghanistan
 
 ?>
-
-
-
-
-
-
