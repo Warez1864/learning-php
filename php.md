@@ -100,7 +100,6 @@ $Countries = array("Mexico","Germany","Russia");
 var_dump($Countries);
 
 ?>
-```
 
 Object: An Object is an individual instance of the data structure defined by a class.
    * We define a class once and then make many objects that belong to it.
@@ -128,6 +127,7 @@ $myCountry = new Country("mighty", "Afghanistan");
 echo $myCountry -> message();
 // Output: My country is beloved Afghanistan
 // Output: My country is migthy Afghanistan
+
 ?>
 
 
