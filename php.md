@@ -50,7 +50,7 @@ Integer: An integer data type is a non-decimal number, like 5
    * An integer data type is a non-decimal number between -2147483648 and 2147483647. A value greater (or lower) than this, will be stored as float, because it exceeds the limit   of an integer.
 
 Example:
-// An integer can be: $5
+* An integer can be: $5
 
 
 
@@ -60,7 +60,16 @@ Float: A float is a number with a decimal point, like 5.5
    * A number with a decimal point is a real number
 
 Example:
-// A float can be: $5.123
+* A float can be: $5.123
 
 
+Boolean: Booleans are like a switch, it has only two possible values either 1 (true) or 0 (false).
+```
+<?php
+// Example:
 
+$ImHappy = True;
+var_dump($ImHappy);
+
+?>
+```
