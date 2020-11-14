@@ -74,3 +74,10 @@ var_dump($ImHappy);
 // Output: True
 ?>
 ```
+
+Array: An array is a variable that can hold more than one value at a time.
+   * Used to store multiple data items
+
+
+
+
