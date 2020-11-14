@@ -76,9 +76,22 @@ var_dump($ImHappy);
 ?>
 ```
 
-Array: An array is a variable that can hold more than one value at a time.
+Array: An array is a data structure that can hold more than one value at a time.
    * Used to store multiple data items
    * Stores multiple values in one single variable.
+   * Consisting of a collection of elements
+   * Each element identified by at least one array index or key.
+
+
+
+   ```
+   * The first element in an array is 0
+
+
+
+
+
+
 ```
 <?php
 // Example:
@@ -113,5 +126,12 @@ echo $myCountry -> message();
 echo "<br>";
 $myCountry = new Country("mighty", "Afghanistan");
 echo $myCountry -> message();
-
+// Output: My country is beloved Afghanistan
+// Output: My country is migthy Afghanistan
 ?>
+
+
+
+
+
+
