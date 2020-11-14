@@ -1,11 +1,20 @@
 <?php
 
-echo "My first php file";
+// here I am declaring a variable. dynamically.
+$warez =  'sahel';
 
-echo "My first variable lesson";
-$Name = "Warez";
-$Age = 15;
-echo "My name is $personName <br>";
-echo "I am $Age years old<br>";
+$$warez = 25;
+
+echo $sahel;
+
+// This is another way of declaring a constant
+define('JELABI', 45);
+define('KOFTA', 50);
+
+echo JELABI;
+echo KOFTA;
+
+
+
 
 ?>
