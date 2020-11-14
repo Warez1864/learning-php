@@ -87,11 +87,30 @@ $Countries = array("Mexico","Germany","Russia");
 var_dump($Countries);
 
 ?>
+```
 
-Object:
+Object: An Object is an individual instance of the data structure defined by a class.
+   * We define a class once and then make many objects that belong to it.
+   * Objects are also known as instances.
+```
+<?php
+// Example:
+class Country {
+  public $land;
+  public $country;
+  public function __construct($land, $country) {
+    $this->land = $land;
+    $this->country = $country;
+  }
+  public function message() {
+    return "My country is " . $this->land . " " . $this->country . "!";
+  }
+}
 
+$myCountryflag = new Country("beloved", "Afghanistan");
+echo $myCountryflag -> message();
+echo "<br>";
+$myCountryflag = new Country("mighty", "Afghanistan");
+echo $myCountryflag -> message();
 
-
-
-
-
+?>
