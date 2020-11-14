@@ -108,10 +108,10 @@ class Country {
   }
 }
 
-$myCountryflag = new Country("beloved", "Afghanistan");
-echo $myCountryflag -> message();
+$myCountry = new Country("beloved", "Afghanistan");
+echo $myCountry -> message();
 echo "<br>";
-$myCountryflag = new Country("mighty", "Afghanistan");
-echo $myCountryflag -> message();
+$myCountry = new Country("mighty", "Afghanistan");
+echo $myCountry -> message();
 
 ?>
