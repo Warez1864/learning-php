@@ -1,8 +1,34 @@
 <?php
 
-// here I am declaring a variable. dynamically.
-$warez =  'sahel';
+$countries = array("Mexico", "USA", "Denmark", "Germany", "Russia");
+$cities = array("Kabul", "Aalborg", "Støvring", "berlin", "moscow");
+$CountryNameSize = count($countries);
 
-$$warez = 25;
 
-echo $sahel;
+echo "The SIZE OF COUNTRY LIST is " . $CountryNameSize ."<br>";
+
+
+for($k=0; $k < $CountryNameSize; $k++){
+
+    //code here
+    echo "The value of K is: " . $k ."<br>";
+    echo $countries[$k] . "<br>";
+
+
+
+
+}
+$citiesNameSize = count($cities);
+
+for($j=0; $j < $citiesNameSize; $j++){
+
+echo $cities[$j] . "<br>";
+
+
+
+}
+
+
+
+
+?>

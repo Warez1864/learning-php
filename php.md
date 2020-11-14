@@ -96,36 +96,39 @@ Array: An array is a data structure that can hold more than one value at a time.
 <?php
 // Example:
 
-$Countries = array("Mexico","Germany","Russia");
-var_dump($Countries);
+
+
+
+
 
 ?>
+
+
+
 
 Object: An Object is an individual instance of the data structure defined by a class.
    * We define a class once and then make many objects that belong to it.
    * Objects are also known as instances.
 ```
 <?php
+
+
+
+
+
 // Example:
 
-class Country {
-  public $land;
-  public $country;
-  public function __construct($land, $country) {
-    $this->land = $land;
-    $this->country = $country;
-  }
-  public function message() {
-    return "My country is " . $this->land . " " . $this->country . "!";
-  }
+class book {
+   private $isbn;
+
+   public function getIsbn(){
+      return $this->isbn;
+   }
+
+   private function getPicure(){
+      return "hello world";
+   }
 }
 
-$myCountry = new Country("beloved", "Afghanistan");
-echo $myCountry -> message();
-echo "<br>";
-$myCountry = new Country("mighty", "Afghanistan");
-echo $myCountry -> message();
-// Output: My country is beloved Afghanistan
-// Output: My country is migthy Afghanistan
 
 ?>
