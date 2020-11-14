@@ -64,6 +64,7 @@ Example:
 
 
 Boolean: Booleans are like a switch, it has only two possible values either 1 (true) or 0 (false).
+   * Booleans are often used in conditional testing.
 ```
 <?php
 // Example:
@@ -77,6 +78,19 @@ var_dump($ImHappy);
 
 Array: An array is a variable that can hold more than one value at a time.
    * Used to store multiple data items
+   * Stores multiple values in one single variable.
+```
+<?php
+// Example:
+
+$Countries = array("Mexico","Germany","Russia");
+var_dump($Countries);
+
+?>
+
+Object:
+
+
 
 
 
