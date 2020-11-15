@@ -1,16 +1,15 @@
 
 <?php
 
-$personNames = array("Peter", "John", "Alex", "warez","Wadiz","Wahida", "Ole", "Jan", "Mads");
+// Associative arrays
+$productsPrice = array("Banana"=> "25", "Garlic" => "10");
 
-$personNamesSize = count($personNames);
+echo " Tak for at du besøgte min hjemmeside" . "<br>";
 
 
-
-for($i=0; $i < $personNamesSize; $i++){
-    echo $personNames[$i] . "<br>";
+if(isset($_GET['homo'])){
+    echo "det er ikke pænt af dig at sige at jeg er homo";
 }
-
 
 ?>
 

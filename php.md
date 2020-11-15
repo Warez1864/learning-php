@@ -22,7 +22,7 @@ Simple string in PHP. Example:
 ?>
 ```
 * The strlen() function is used to calculate the number of characters inside a string. It also includes the blank spaces inside the string.
-```
+```php
 // Example:
 
 <?php
@@ -33,7 +33,7 @@ echo strlen($MyAge);
 ?>
 ```
 * The str_word_count() function counts the number of words in a string.
-```
+```php
 // Example:
 
 <?php
@@ -65,7 +65,8 @@ Example:
 
 Boolean: Booleans are like a switch, it has only two possible values either 1 (true) or 0 (false).
    * Booleans are often used in conditional testing.
-```
+```php
+
 <?php
 // Example:
 
@@ -76,6 +77,8 @@ var_dump($ImHappy);
 ?>
 ```
 
+
+
 Array: An array is a data structure that can hold more than one value at a time.
    * Used to store multiple data items
    * Stores multiple values in one single variable.
@@ -84,15 +87,12 @@ Array: An array is a data structure that can hold more than one value at a time.
 
 
 
-   ```
    * The first element in an array is 0
+```php
 
 
 
-
-
-
-```
+```php
 <?php
 // Example:
 
@@ -105,11 +105,11 @@ Array: An array is a data structure that can hold more than one value at a time.
 
 
 
-
+```
 Object: An Object is an individual instance of the data structure defined by a class.
    * We define a class once and then make many objects that belong to it.
    * Objects are also known as instances.
-```
+```php
 <?php
 
 
@@ -132,3 +132,4 @@ class book {
 
 
 ?>
+```
